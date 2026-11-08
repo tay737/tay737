@@ -5,7 +5,7 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,45:E8F0FF,100:7AA2F7&height=200&section=header&text=tay&fontSize=72&fontColor=0D1117&animation=fadeIn&desc=Cybersecurity%20%E2%80%A2%20Frontend%20engineering&descSize=18&descAlignY=70" alt="tay — cybersecurity and frontend engineering" width="100%" />
   </picture>
 
-  <a href="https://tay737.co.uk"><img src="https://img.shields.io/badge/Portfolio-7AA2F7?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://tay737.github.io"><img src="https://img.shields.io/badge/Portfolio-7AA2F7?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" /></a>
   <a href="https://github.com/tay737"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://linkedin.com/in/tay737"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:tayyab@outlook.jp"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -29,7 +29,7 @@
         <li>Attacking my own home network to expose what needs patching</li>
         <li>Building <a href="https://github.com/tay737/revisio"><strong>Revisio</strong></a>, a spaced-repetition platform</li>
       </ul>
-      <p><a href="https://tay737.co.uk"><strong>tay737.co.uk</strong></a> &nbsp;·&nbsp; <a href="https://tay737.github.io">mirror</a> &nbsp;·&nbsp; <a href="https://www.credly.com/users/tay737">Credly</a></p>
+      <p><a href="https://tay737.github.io"><strong>tay737.github.io</strong></a> &nbsp;·&nbsp; <a href="https://www.credly.com/users/tay737">Credly</a></p>
     </td>
   </tr>
 </table>
