@@ -64,7 +64,7 @@
 | Project | What it is | Built with |
 | :------ | :--------- | :--------- |
 | **[revisio](https://github.com/tay737/revisio)** | *Learn it once.* A spaced-repetition learning platform — server-graded scheduling, XP, streaks and leagues, plus native iOS and Android clients over the same API. | `Next.js` `TypeScript` `Postgres` `Drizzle` `Kotlin` `Swift` |
-| **[ssh-honeypot](https://github.com/tay737/ssh-honeypot)** | An internet-facing SSH honeypot. Failed logins are enriched with geolocation and ASN data, stored in InfluxDB, visualised in Grafana, and published as a daily Markdown threat report. | `Python` `InfluxDB` `Grafana` `Docker` `Linux` |
+| **[ssh-honeypot](https://github.com/tay737/ssh-honeypot)** · *archived* | An internet-facing SSH honeypot that ran for 11 days in September 2026, recording 11,184 attempted logins. Failed logins were enriched with geolocation and ASN data, stored in InfluxDB, visualised in Grafana and published as daily Markdown threat reports. Now retired and kept as a read-only record. | `Python` `InfluxDB` `Grafana` `Docker` `Linux` |
 | **[writeups](https://github.com/tay737/writeups)** | A collection of reports and write-ups covering vulnerabilities, circumventions, exploits and CTF challenges. | `Python` `CTF` |
 | **[tay737.github.io](https://github.com/tay737/tay737.github.io)** | My portfolio site — motion-led interface, live GitHub project cards, synced Credly badges and a native honeypot telemetry dashboard. | `React` `Vite` `TypeScript` `Tailwind` |
 
