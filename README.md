@@ -34,12 +34,6 @@
   </tr>
 </table>
 
-<div align="center">
-  <br />
-  <em>“No system can ever be truly safe; the only way to patch a vulnerability is exposing it first.”</em>
-  <br /><br />
-</div>
-
 ### Areas I'm pursuing
 
 <table>
