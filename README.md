@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1A1B2E,100:7AA2F7&height=200&section=header&text=tay&fontSize=72&fontColor=FFFFFF&animation=fadeIn&desc=Cybersecurity%20%E2%80%A2%20Frontend%20engineering&descSize=18&descAlignY=70" />
     <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,45:E8F0FF,100:7AA2F7&height=200&section=header&text=tay&fontSize=72&fontColor=0D1117&animation=fadeIn&desc=Cybersecurity%20%E2%80%A2%20Frontend%20engineering&descSize=18&descAlignY=70" />
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,45:E8F0FF,100:7AA2F7&height=200&section=header&text=tay&fontSize=72&fontColor=0D1117&animation=fadeIn&desc=Cybersecurity%20%E2%80%A2%20Frontend%20engineering&descSize=18&descAlignY=70" alt="tay — cybersecurity and frontend engineering" width="100%" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,45:E8F0FF,100:7AA2F7&height=200&section=header&text=tay&fontSize=72&fontColor=0D1117&animation=fadeIn&desc=Cybersecurity%20%E2%80%A2%20Frontend%20engineering&descSize=18&descAlignY=70" alt="tay, cybersecurity and frontend engineering" width="100%" />
   </picture>
 
   <a href="https://tay737.github.io"><img src="https://img.shields.io/badge/Portfolio-7AA2F7?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" /></a>
@@ -17,17 +17,18 @@
   <tr>
     <td width="58%" valign="top">
       <h3>About</h3>
-      <p>I'm <strong>tay</strong> — a cybersecurity student and self-taught developer based in England.</p>
-      <p>It all began with a barely-functioning Dell Inspiron E1750. From the age of four my fascination for computers has only grown, into an unhealthy need to figure out how and why things work the way they do — and how they can be cracked.</p>
-      <p>Today that splits two ways: breaking things apart on the security side, and building things properly for the web. CTFs, labs and my own home network on one hand; React and TypeScript interfaces on the other.</p>
+      <p>I'm <strong>tay</strong>, a cybersecurity student and self-taught developer in England.</p>
+      <p>It all began with a barely-functioning Dell Inspiron E1750. From the age of four my fascination for computers has only grown, into an unhealthy need to figure out how and why things work the way they do, and how they can be cracked.</p>
+      <p>Today that splits two ways. On the security side I take things apart: CTFs, labs, my own home network. On the web side I build with React and TypeScript.</p>
     </td>
     <td width="42%" valign="top">
       <h3>Currently</h3>
       <ul>
         <li>Studying <strong>T-Level Cybersecurity</strong> (Digital Support &amp; Security)</li>
-        <li>Practising through CTFs, labs and Hack The Box</li>
-        <li>Attacking my own home network to expose what needs patching</li>
+        <li>Working through CTFs, labs and Hack The Box</li>
+        <li>Attacking my own home network to find what needs patching</li>
         <li>Building <a href="https://github.com/tay737/revisio"><strong>Revisio</strong></a>, a spaced-repetition platform</li>
+        <li>Getting Kali NetHunter to behave on a Galaxy A20e</li>
       </ul>
       <p><a href="https://tay737.github.io"><strong>tay737.github.io</strong></a> &nbsp;·&nbsp; <a href="https://www.credly.com/users/tay737">Credly</a></p>
     </td>
@@ -63,10 +64,11 @@
 
 | Project | What it is | Built with |
 | :------ | :--------- | :--------- |
-| **[revisio](https://github.com/tay737/revisio)** | *Learn it once.* A spaced-repetition learning platform — server-graded scheduling, XP, streaks and leagues, plus native iOS and Android clients over the same API. | `Next.js` `TypeScript` `Postgres` `Drizzle` `Kotlin` `Swift` |
-| **[ssh-honeypot](https://github.com/tay737/ssh-honeypot)** · *archived* | An internet-facing SSH honeypot that ran for 11 days in September 2026, recording 11,184 attempted logins. Failed logins were enriched with geolocation and ASN data, stored in InfluxDB, visualised in Grafana and published as daily Markdown threat reports. Now retired and kept as a read-only record. | `Python` `InfluxDB` `Grafana` `Docker` `Linux` |
-| **[writeups](https://github.com/tay737/writeups)** | A collection of reports and write-ups covering vulnerabilities, circumventions, exploits and CTF challenges. | `Python` `CTF` |
-| **[tay737.github.io](https://github.com/tay737/tay737.github.io)** | My portfolio site — motion-led interface, live GitHub project cards, synced Credly badges and a native honeypot telemetry dashboard. | `React` `Vite` `TypeScript` `Tailwind` |
+| **[revisio](https://github.com/tay737/revisio)** | *Learn it once.* A spaced-repetition platform: subjects, topics, lessons and cards, a daily queue you can actually finish, and a rank worth defending. Native iOS and Android clients run on the same API. | `Next.js` `TypeScript` `Postgres` `Drizzle` `Kotlin` `Swift` |
+| **[a20e-nethunter](https://github.com/tay737/a20e-nethunter)** | Kali NetHunter on a Samsung Galaxy A20e. The Eureka R15 kernel with the NetHunter patches and KernelSU built in, a Kali chroot, and USB HID and Bluetooth that work. The repo holds the patches, module sources and flashable binaries. | `C` `Linux` `KernelSU` `NetHunter` |
+| **[ssh-honeypot](https://github.com/tay737/ssh-honeypot)** · *archived* | I ran an internet-facing SSH honeypot for 11 days in September 2026 and it logged 11,184 login attempts. A collector added geolocation and ASN data, the events went to InfluxDB, and Grafana rendered a Markdown threat report each morning. Archived and read-only now. | `Python` `InfluxDB` `Grafana` `Docker` `Linux` |
+| **[writeups](https://github.com/tay737/writeups)** | Write-ups on vulnerabilities, circumventions, exploits and CTF challenges I have worked through. | `Python` `CTF` |
+| **[tay737.github.io](https://github.com/tay737/tay737.github.io)** | My portfolio site. Motion-led interface, GitHub project cards fetched in the browser, Credly badges synced at build time. | `React` `Vite` `TypeScript` `Tailwind` |
 
 <br />
 
@@ -113,7 +115,7 @@
 
 ### Certifications
 
-Six verified credentials, issued through **Cisco** and verified on Credly.
+Six Cisco credentials, each one verified on Credly.
 
 <a href="https://www.credly.com/badges/f3f9e909-0dfa-47c5-8e28-6286bfc0e49c"><img src="https://img.shields.io/badge/Python_Essentials_1-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Python Essentials 1" /></a>
 <a href="https://www.credly.com/badges/74ac91a5-361e-42fa-9604-989e7f3a231b"><img src="https://img.shields.io/badge/Python_Essentials_2-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Python Essentials 2" /></a>
@@ -122,7 +124,7 @@ Six verified credentials, issued through **Cisco** and verified on Credly.
 <a href="https://www.credly.com/badges/6b21624d-a004-4a09-acbb-dde5b096defd"><img src="https://img.shields.io/badge/Ethical_Hacker-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Ethical Hacker" /></a>
 <a href="https://www.credly.com/badges/f3787408-6bb2-4d8f-9ac8-e3fd85f3ccc9"><img src="https://img.shields.io/badge/Introduction_to_Cybersecurity-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Introduction to Cybersecurity" /></a>
 
-<sub><a href="https://www.credly.com/users/tay737">All badges on Credly →</a></sub>
+<sub><a href="https://www.credly.com/users/tay737">All badges on Credly</a></sub>
 
 <br />
 
@@ -146,16 +148,13 @@ Six verified credentials, issued through **Cisco** and verified on Credly.
 
 ### Beyond the terminal
 
-- **Rainbow Six Siege** — peaked top 2955 in Y10S2
-- **Kovaak's** — Voltaic S5 Jade, with a few Master scores
-- **Media** — *Mr Robot*, *Neon Genesis Evangelion*, *Boy's Abyss*, *No Longer Human*
-- **Making things** — video and photo editing, graphic design, music, reading, creative writing
+I play Rainbow Six Siege, where I peaked at 2955 in Y10S2, and Kovaak's, where I'm sitting on Voltaic S5 Jade with a few Master scores. Off screen it's *Mr Robot*, *Neon Genesis Evangelion*, *Boy's Abyss* and *No Longer Human*, plus video and photo editing, graphic design, music, reading and creative writing.
 
 <br />
 
 <div align="center">
   <h3>Get in touch</h3>
-  <p>Whether you have a question, an idea, or just want to say hi — my inbox is open.</p>
+  <p>Email me about anything, or just say hi.</p>
 
   <a href="mailto:tayyab@outlook.jp"><img src="https://img.shields.io/badge/Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Say hello by email" /></a>
   <a href="https://linkedin.com/in/tay737"><img src="https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
